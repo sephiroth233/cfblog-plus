@@ -1,6 +1,7 @@
 name: 'CFBlog'
 
 on:
+  workflow_dispatch:
   watch:
     types: started
   schedule:
